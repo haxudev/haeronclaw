@@ -1,0 +1,32 @@
+# OPTIONAL: only needed if a tool requires extra dependencies
+
+# Pydantic for tool parameter validation
+pydantic>=2.0.0
+
+# Office XML processing dependencies (docx/pptx/xlsx validation and editing)
+Pillow>=10.0.0
+defusedxml>=0.7.0
+lxml>=4.9.0
+
+# PPTX text extraction
+markitdown[pptx]>=0.1.0
+
+# XLSX skill (Excel editing and recalc support)
+openpyxl>=3.1.0
+pandas>=2.0.0
+
+# Skill-creator (YAML parsing/validation)
+PyYAML>=6.0.0
+
+# PDF skill (form fill, field extraction, reading/writing)
+pypdf>=3.0.0
+
+# PDF skill (rendering helpers and form structure extraction)
+pypdfium2>=4.0.0
+pdf2image>=1.17.0
+
+# PDF skill (create professional PDFs: reports, tables, charts)
+reportlab>=4.0.0
+
+# PDF skill (extract text and tables from PDFs with layout awareness)
+pdfplumber>=0.10.0

@@ -1,0 +1,116 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Azure Functions
+local.settings.json
+local.settings.*.json
+
+# Azurite (local Azure Storage emulator)
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+azurite_db_blob*.json
+azurite_db_queue*.json
+azurite_db_table*.json
+*.debug.log
+
+# Azure Functions build artifacts
+.python_packages/
+bin/
+obj/
+
+# Python tooling
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage.*
+coverage.xml
+
+# IDE
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Node.js - don't commit, install during deployment
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Secrets / credentials - NEVER commit these!
+*.pem
+*.key
+*.env
+.env.*
+.envrc
+.python-version
+secrets.json
+credentials.json
+*.secret
+
+# Test artifacts
+.coverage
+htmlcov/
+.tox/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+.azure/
+.azd/
+.terraform/
+*.tfstate
+*.tfstate.*
+tmp/
+
+# Local deployment parameters
+scripts/*.parameters.local.json
+scripts/deploy.dev.parameters.json
+scripts/deploy.dev.parameters.local.json
+scripts/deploy.aca.parameters.local.json
+_sessions.json
+
+# Local Teams app manifests
+teams-app/manifest.local.json
+teams-app/manifest.*.local.json
+
+# Sample related gitnores
+infra/assets/.gitignore
+infra/assets/.vscode/
+infra/assets/requirements.txt
+src/work_memory/
+nul
+api-test-result.txt
+la-agent.txt
+la-console.txt
+la-runtime.txt
+la-runtime2.txt
+test/dev-logs-raw.txt
+test/dev-logs.txt
+test/la-mail-query.json
+test/*.http.env.json
+test/*.local.http
+la-bgdiag.txt
+la-diag.txt
+la-m365.txt
+la-ppt-window.txt
